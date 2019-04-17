@@ -42,7 +42,7 @@ func handleRequestWithLog(h func(http.ResponseWriter, *http.Request)) http.Handl
 
 func helloWorld(w http.ResponseWriter, r *http.Request) {
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte(`Hello World`))
+	w.Write([]byte(`Hello World!`))
 }
 
 func main() {
